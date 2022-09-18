@@ -51,7 +51,7 @@ function devolverString(str) {
     // Devuelve "true" si las dos strings tienen la misma longitud
     // De lo contrario, devuelve "false"
     // Tu código:
-    if(str1.length === str2.lenght){
+    if(str1.length === str2.length){
       return true;
     }
     else{
@@ -75,7 +75,7 @@ function devolverString(str) {
     // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
     // De lo contrario, devuelve "false"
     // Tu código:
-    if(num > 90){
+    if(num > 50){
       return true;
     }
     else{
@@ -161,7 +161,7 @@ function devolverString(str) {
       return "Es positivo";
     }
     else if(numero < 0){
-      return "ES negativo";
+      return "Es negativo";
     }
     else{
       return false;
@@ -180,14 +180,14 @@ function devolverString(str) {
     // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
     // Ejemplo: "Soy", "Henry" -> "Soy Henry"
     // Tu código:
-    return nombre + apellido;
+    return nombre + " " + apellido;
   }
   
   function obtenerSaludo(nombre) {
     // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
     // "Martin" -> "Hola Martin!"
     // Tu código:
-    return "Hola" + nombre + "!";
+    return "Hola" + " " + nombre + "!";
   }
   
   function obtenerAreaRectangulo(alto, ancho) {
@@ -205,7 +205,7 @@ function devolverString(str) {
   function areaDelTriangulo(base, altura) {
     //Desarrolle una función que calcule el área de un triángulo.
     //Escribe tu código aquí:
-    return (base*altura);
+    return (base*altura)/2;
   }
   
   function deEuroAdolar(euro) {
